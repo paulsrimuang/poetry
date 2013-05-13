@@ -36,3 +36,6 @@ git config --global core.autocrlf input
 #Force Windows to convert to CRLF
 # on checkout and to LF on `add`
 git config --global core.autocrlf true
+
+
+git config --global alias.lol "log --graph --decorate --all --oneline"
