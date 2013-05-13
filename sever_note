@@ -1,0 +1,5 @@
+sudo /usr/sbin/apachectl stop
+sudo /usr/sbin/apachectl start
+
+
+sudo /etc/init.d/mysqld start

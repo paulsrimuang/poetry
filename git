@@ -1,0 +1,38 @@
+
+Config
+Scopes
+
+system configuration
+
+git config --system <name> <value>
+
+user configuration
+
+git config --global <name> <value>
+
+repository configuration
+
+git config --local <name> <value>
+
+
+git config user.name
+get config user.email
+~/.gitconfig
+
+
+git config --list
+
+
+Config
+Useful Settings
+
+
+#Colorize console output for legibility
+git config --global color.ui auto
+
+#Force files to be LF in the repo, even on Mac/Linux
+git config --global core.autocrlf input
+
+#Force Windows to convert to CRLF
+# on checkout and to LF on `add`
+git config --global core.autocrlf true
